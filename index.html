@@ -10,7 +10,7 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- external css -->
     <link rel="stylesheet" href="style.css">
     <title>Red Carpet</title>
@@ -97,14 +97,156 @@
     </header>
 
     <!-- main component -->
-    <main>
+    <main class="position-relative">
+        <!-- toast component -->
+        <div class="toast d-block position-absolute top-0 end-0 align-items-center w-auto" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    <i class="fas fa-gift text-primary lead"></i> <span class="ms-2">20% off on next booking</span>
+                </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
 
+        <!-- package component -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center my-5">Our Package</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="package-item p-5">
+                            <h3>300$</h3>
+                            <h5>Business fair</h5>
+                            <p>For most businesses event like book fair, craft fair.</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i> 
+                                    <span>Limited space access</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Secuirty facility</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Event support</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Decoration design</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Per day bill</span>
+                                </li>
+                            </ul>
+                            <button class="btn btn-light text-primary rounded-pill w-100">Choose plan</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="package-item p-5">
+                            <h3>500$</h3>
+                            <h5>Wedding basic</h5>
+                            <p>For weddings with basic plan
+                            and limited item</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i> 
+                                    <span>Full space access</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Food arrangement</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Mangement support</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Decoration design</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Billed as shift</span>
+                                </li>
+                            </ul>
+                            <button class="btn btn-light text-primary rounded-pill w-100">Choose plan</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="package-item active-item text-white bg-primary p-5 position-relative">
+                            <span class="position-absolute badge rounded-pill bg-danger">Hot</span>
+                            <h3>800$</h3>
+                            <h5>Wedding plus</h5>
+                            <p>For most weddings with premium plans</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i> 
+                                    <span>Full space access</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Dedicated team</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Buffet food</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Premium decoration</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Pay as plan</span>
+                                </li>
+                            </ul>
+                            <button class="btn btn-light text-primary rounded-pill w-100">Choose plan</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="package-item p-5">
+                            <h3>1200$</h3>
+                            <h5>Corporate event</h5>
+                            <p>For most corporate business 
+                            events.</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i> 
+                                    <span>Full space access</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Dedicated team</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Buffet food</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Premium decoration</span>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Pay as plan</span>
+                                </li>
+                            </ul>
+                            <button class="btn btn-light text-primary rounded-pill w-100">Choose plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- bootstrap script cdn -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <!-- fontawesome script cdn -->
+    <script src="https://kit.fontawesome.com/2ec2eb3c51.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

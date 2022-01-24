@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #17202A;
 }
 
 /* header component */
@@ -48,4 +49,26 @@ section {
     background: url("./images/program-4.jpg");
     background-position: center;
     background-size: cover;
+}
+
+/* main component */
+/* package component */
+.package-item p, .package-item ul {
+    font-size: 0.70rem;
+    color: #ABB2B9;
+}
+
+.active-item {
+    transform: translateY(-30px);
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.active-item span {
+    top: -10.2px;
+    right: 20px;
+}
+
+.active-item p, .active-item ul {
+    color: #ECF0F1;
 }
