@@ -61,17 +61,28 @@ header section {
 }
 
 .active-item {
+    background: #17202a;
     transform: translateY(-30px);
     border-radius: 25px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .active-item span {
-    top: -10.2px;
+    top: -16px;
     right: 20px;
+    padding: 10px 15px;
 }
 
 .active-item p,
 .active-item ul {
     color: #ecf0f1;
+}
+
+/* footer component */
+footer {
+    height: 50vh;
+}
+
+footer p {
+    font-weight: 300;
 }
